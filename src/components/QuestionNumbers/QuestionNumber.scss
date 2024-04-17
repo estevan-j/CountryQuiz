@@ -1,0 +1,16 @@
+.n-question{
+    background-color: #343964;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    padding: 3px;
+    font-size: 17px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+
+.answered, .n-question:hover{
+    background: linear-gradient(#E65895, #BC6BE8);
+}

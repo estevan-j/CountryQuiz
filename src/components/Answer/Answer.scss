@@ -1,0 +1,16 @@
+.option-answer{
+    width: 100%;
+    background-color: #343964;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 2px #343964;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.selected, .option-answer:hover{
+    background: linear-gradient(#E65895, #BC6BE8);
+}

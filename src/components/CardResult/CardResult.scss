@@ -1,0 +1,31 @@
+.card-results{
+    max-width: 420px;
+    min-height: 300px;
+    background-color: #393F6E;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    h2{
+        text-align: center;
+        font-weight: 400;
+        font-size: 28px;
+    }
+}
+.congrats{
+    width: 80%;
+}
+.result{
+    margin-bottom: 25px;
+}
+
+.btn-new{
+    background: linear-gradient(#E65895, #BC6BE8);
+    border: none;
+    cursor: pointer;
+    padding: 20px 5.2rem;
+    border-radius: 10px;
+    margin: 20px 0;
+}
