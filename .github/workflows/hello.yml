@@ -6,8 +6,9 @@ on:
       - main
 
 jobs:
-  hello_world:  # Corrected typo in job name
+  hello_world: 
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
-        run: echo "Hola Body2120!"
+        run: |
+          echo "Hola Body2120!"
