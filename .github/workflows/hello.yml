@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  hello_world: 
+  hello_world:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
         run: |
-          echo "Hola Body2120!"
+          echo "Hola midu!"
