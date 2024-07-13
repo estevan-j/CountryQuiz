@@ -18,4 +18,4 @@ jobs:
       - name: Install Dependecies
         run: npm install
       - name: Lint
-        run: npm run eslint
+        run: npm run eslintrc
